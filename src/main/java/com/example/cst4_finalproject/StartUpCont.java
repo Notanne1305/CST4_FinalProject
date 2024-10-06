@@ -29,7 +29,7 @@ public class StartUpCont extends Application implements Initializable {
 
     @Override
     public void start(Stage stage) throws IOException {
-        // Load all fonts
+        // Load fonts
         Font.loadFont(getClass().getResource("/fonts/TekturNarrow-Black.ttf").toExternalForm(), -1);
         Font.loadFont(getClass().getResource("/fonts/TekturNarrow-Bold.ttf").toExternalForm(), -1);
         Font.loadFont(getClass().getResource("/fonts/TekturNarrow-ExtraBold.ttf").toExternalForm(), -1);
@@ -52,12 +52,15 @@ public class StartUpCont extends Application implements Initializable {
     public void handleStartButton(ActionEvent event) throws IOException {
         System.out.println("Start button pressed"); // Debugging statement
         if (event.getSource() == StartButton) {
+            // Close the current stage
             Stage currentStage = (Stage) StartButton.getScene().getWindow();
             currentStage.close();
 
+            // Load and open HomePage.fxml in a new stage
             Stage newStage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/com/example/cst4_finalproject/HomePage.fxml"));
             newStage.setScene(new Scene(root));
+            newStage.setTitle("Home Page");
             newStage.show();
         }
     }
@@ -69,7 +72,8 @@ public class StartUpCont extends Application implements Initializable {
         if (TITLE == null) {
             System.out.println("TITLE is null. Check FXML configuration.");
         } else {
-            TITLE.setOpacity(0); // Start invisible
+            // Set TITLE to fade in and out indefinitely
+            TITLE.setOpacity(0);
             FadeTransition fade = new FadeTransition(Duration.millis(2000), TITLE);
             fade.setCycleCount(FadeTransition.INDEFINITE);
             fade.setInterpolator(Interpolator.LINEAR);
@@ -82,7 +86,8 @@ public class StartUpCont extends Application implements Initializable {
         if (StartButton == null) {
             System.out.println("StartButton is null. Check FXML configuration.");
         } else {
-            StartButton.setOpacity(0); // Start invisible
+            // Set StartButton to fade in and out indefinitely
+            StartButton.setOpacity(0);
             FadeTransition fading = new FadeTransition(Duration.millis(2000), StartButton);
             fading.setCycleCount(FadeTransition.INDEFINITE);
             fading.setInterpolator(Interpolator.LINEAR);
