@@ -13,9 +13,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="718.0" prefWidth="1545.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.OptionsCont">
+<AnchorPane prefHeight="1328.0" prefWidth="1545.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.OptionsCont">
    <children>
-      <ImageView fitHeight="809.0" fitWidth="1685.0" layoutX="-141.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="1024.0" fitWidth="1685.0" layoutX="-141.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Images/bg.jpg" />
          </image>
@@ -33,7 +33,7 @@
             <Font name="Tektur Narrow Regular" size="26.0" />
          </font>
       </Text>
-      <ScrollPane hbarPolicy="NEVER" layoutX="752.0" layoutY="154.0" pannable="true" prefHeight="625.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+      <ScrollPane hbarPolicy="NEVER" layoutX="752.0" layoutY="154.0" pannable="true" prefHeight="1595.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1341.0" prefWidth="743.0">
                <children>
@@ -119,9 +119,9 @@
                      </image>
                   </ImageView>
                   <Line endX="69.20001220703125" endY="-1.52587890625E-5" layoutX="606.0" layoutY="968.0" startX="-150.8000030517578" startY="-1.52587890625E-5" stroke="#db81ef" strokeWidth="2.5" />
-                  <Text fill="#db81ef" layoutX="521.0" layoutY="957.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOWER OF HANOI" wrappingWidth="168.53338623046875">
+                  <Text fill="#db81ef" layoutX="585.0" layoutY="952.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOWER OF HANOI" wrappingWidth="168.53338623046875">
                      <font>
-                        <Font name="Tektur Narrow Regular" size="20.0" />
+                        <Font name="Tektur Narrow Regular" size="16.0" />
                      </font>
                   </Text>
                   <Polyline fill="#d980ed00" layoutX="532.0" layoutY="1171.0" points="-77.00001525878906, 40.199981689453125, 146.40008544921875, 40.199981689453125, 92.79998779296875, 79.4000244140625, -77.00001525878906, 79.40008544921875" stroke="#db81ef" strokeType="INSIDE" strokeWidth="3.0" />
@@ -150,7 +150,7 @@
                      </font>
                   </JFXButton>
                   <JFXButton layoutX="64.0" layoutY="923.0" prefHeight="287.0" prefWidth="260.0" text="." />
-                  <JFXButton layoutX="434.0" layoutY="923.0" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <JFXButton layoutX="272.0" layoutY="1033.0" prefHeight="287.0" prefWidth="260.0" text="." />
                </children>
             </AnchorPane>
         </content>
