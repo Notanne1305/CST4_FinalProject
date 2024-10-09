@@ -17,6 +17,7 @@ import javafx.fxml.FXML;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class StartUpCont extends Application implements Initializable {
@@ -26,6 +27,13 @@ public class StartUpCont extends Application implements Initializable {
 
     @FXML
     private Text TITLE;
+
+    //DFA
+    //NDFA
+    //Hanoi
+    //CFG
+    //PDA
+    //Turing
 
     @Override
     public void start(Stage stage) throws IOException {
@@ -58,7 +66,7 @@ public class StartUpCont extends Application implements Initializable {
 
             // Load and open HomePage.fxml in a new stage
             Stage newStage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/com/example/cst4_finalproject/HomePage.fxml"));
+            Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/cst4_finalproject/HomePage.fxml")));
             newStage.setScene(new Scene(root));
             newStage.setTitle("Home Page");
             newStage.show();
