@@ -1,3 +1,12 @@
 .scroll-pane .viewport {
     -fx-background: transparent;
 }
+
+.label {
+ -fx-background-color: #000;
+     -fx-background-radius: 90px;
+     -fx-padding: 3px;
+     -fx-border-color: #7debfc;
+     -fx-border-width: 2px;
+     -fx-border-radius: 90px;
+}
