@@ -17,21 +17,21 @@
             <Image url="@../../../Images/EditedBg.png" />
          </image>
       </ImageView>
-      <Pane layoutX="-10.0" layoutY="-10.0" opacity="0.6" prefHeight="118.0" prefWidth="1552.0" style="-fx-background-color: #000000;">
+      <Pane layoutX="-10.0" layoutY="-10.0" opacity="0.6" prefHeight="106.0" prefWidth="1552.0" style="-fx-background-color: #000000;">
          <children>
-            <ImageView fitHeight="176.0" fitWidth="315.0" layoutX="-70.0" layoutY="-18.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="161.0" fitWidth="274.0" layoutX="-67.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
                </image>
             </ImageView>
-            <Text layoutX="138.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #DB81EF;" text="NDFA Machine Visualization" wrappingWidth="466.1199645996094">
+            <Text layoutX="105.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #DB81EF;" text="DFA Machine Visualization" wrappingWidth="466.1199645996094">
                <font>
                   <Font name="Tektur Tight Regular" size="54.0" />
                </font>
             </Text>
          </children>
       </Pane>
-      <AnchorPane layoutX="235.0" layoutY="148.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 3px;">
+      <AnchorPane layoutX="236.0" layoutY="131.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
          <children>
             <Label layoutX="429.0" layoutY="-23.0" prefHeight="55.0" prefWidth="149.0" stylesheets="@../../../Style/style.css" text="     DIAGRAM" textFill="#7debfc">
                <font>
@@ -43,7 +43,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a3eb8" height="80.0" layoutX="502.0" layoutY="694.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a3eb8" height="80.0" layoutX="679.0" layoutY="692.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a3eb8" height="80.0" layoutX="857.0" layoutY="692.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
-      <ImageView fitHeight="51.0" fitWidth="55.0" layoutX="741.0" layoutY="707.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="51.0" fitWidth="55.0" layoutX="737.0" layoutY="707.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Images/play-button.png" />
          </image>
@@ -58,7 +58,7 @@
             <Image url="@../../../Images/logout.png" />
          </image>
       </ImageView>
-      <Pane layoutX="236.0" layoutY="589.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 3px;">
+      <Pane layoutX="236.0" layoutY="577.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
          <children>
             <TextField layoutX="87.0" layoutY="18.0" prefHeight="46.0" prefWidth="413.0" />
             <Label layoutX="31.0" layoutY="20.0" text="INPUT" textFill="#5a3eb8">
@@ -68,7 +68,7 @@
             </Label>
          </children>
       </Pane>
-      <Pane layoutX="777.0" layoutY="590.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 3px;">
+      <Pane layoutX="777.0" layoutY="577.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
          <children>
             <TextField editable="false" layoutX="87.0" layoutY="18.0" prefHeight="46.0" prefWidth="413.0" />
             <Label layoutX="23.0" layoutY="22.0" text="RESULT" textFill="#5a3eb8">

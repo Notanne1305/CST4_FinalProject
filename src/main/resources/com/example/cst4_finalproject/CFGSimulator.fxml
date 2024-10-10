@@ -30,7 +30,7 @@
                </font></Text>
          </children>
       </Pane>
-      <AnchorPane layoutX="235.0" layoutY="143.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 3PX;">
+      <AnchorPane layoutX="235.0" layoutY="143.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2PX;">
          <children>
             <Label layoutX="482.0" layoutY="-29.0" prefHeight="38.0" prefWidth="146.0" style="-fx-text-fill: #7debfc;" stylesheets="@../../../Style/style.css" text="    DIAGRAM">
                <font>

@@ -32,7 +32,7 @@
             </Text>
          </children>
       </Pane>
-      <AnchorPane layoutX="233.0" layoutY="137.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
+      <AnchorPane layoutX="233.0" layoutY="136.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
          <children>
             <Label layoutX="460.0" layoutY="-25.0" prefHeight="59.0" prefWidth="138.0" stylesheets="@../../../Style/style.css" text="    DIAGRAM" textFill="#7debfc">
                <font>
