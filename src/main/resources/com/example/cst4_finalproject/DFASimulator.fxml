@@ -33,11 +33,21 @@
       </Pane>
       <AnchorPane layoutX="236.0" layoutY="131.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2px;">
          <children>
-            <Label layoutX="429.0" layoutY="-23.0" prefHeight="55.0" prefWidth="149.0" stylesheets="@../../../Style/style.css" text="     DIAGRAM" textFill="#7debfc">
+            <Label layoutX="460.0" layoutY="-23.0" prefHeight="55.0" prefWidth="149.0" stylesheets="@../../../Style/style.css" text="     DIAGRAM" textFill="#7debfc">
                <font>
                   <Font name="Tektur Tight Regular" size="38.0" />
                </font>
             </Label>
+            <Text fill="#5a3eb8" layoutX="10.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This string accepts strings that ends 1000" wrappingWidth="340.3600616455078">
+               <font>
+                  <Font name="Tektur Tight Regular" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="#5a3eb8" layoutX="920.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACCEPTED">
+               <font>
+                  <Font name="Tektur Tight ExtraBold" size="35.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a3eb8" height="80.0" layoutX="502.0" layoutY="694.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />

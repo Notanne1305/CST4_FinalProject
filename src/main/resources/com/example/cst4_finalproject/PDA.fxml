@@ -1,18 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="774.0" prefWidth="1545.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.project.turingmachineproject.StartUpController">
+<AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.project.turingmachineproject.StartUpController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000080" height="781.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1547.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000bf" height="122.0" layoutX="-1.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1547.0" />
-      <ImageView fitHeight="160.0" fitWidth="285.0" layoutX="-45.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="788.0" fitWidth="1541.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
+            <Image url="@../../../Images/EditedBg.png" />
          </image>
       </ImageView>
+      <Pane opacity="0.604" prefHeight="100.0" prefWidth="1541.0" style="-fx-background-color: #000000;">
+         <children>
+            <ImageView fitHeight="149.0" fitWidth="260.0" layoutX="-67.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="94.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #DB81EF;" text="PDA Machine Visualization">
+               <font>
+                  <Font name="Tektur Tight Regular" size="54.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <AnchorPane layoutX="207.0" layoutY="141.0" prefHeight="433.0" prefWidth="1061.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF; -fx-border-width: 2PX;">
+         <children>
+            <Label layoutX="460.0" layoutY="-21.0" prefHeight="59.0" prefWidth="132.0" stylesheets="@../../../Style/style.css" text="   DIAGRAM" textFill="#7debfc">
+               <font>
+                  <Font name="Tektur Tight Regular" size="38.0" />
+               </font>
+            </Label>
+            <Text fill="#5a3eb8" layoutX="10.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This string accepts strings that is even palindrome" wrappingWidth="525.6933746337891">
+               <font>
+                  <Font name="Tektur Tight Regular" size="30.0" />
+               </font>
+            </Text>
+            <Text fill="#5a3eb8" layoutX="924.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACCEPTED">
+               <font>
+                  <Font name="Tektur Tight ExtraBold" size="35.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Pane layoutX="207.0" layoutY="591.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF;">
+         <children>
+            <TextField layoutX="91.0" layoutY="18.0" prefHeight="46.0" prefWidth="413.0" />
+            <Label layoutX="27.0" layoutY="23.0" text="INPUT" textFill="#5a3eb8">
+               <font>
+                  <Font name="Tektur Tight Regular" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="749.0" layoutY="590.0" prefHeight="82.0" prefWidth="518.0" style="-fx-background-color: #000000; -fx-border-color: #DB81EF;">
+         <children>
+            <TextField layoutX="91.0" layoutY="18.0" prefHeight="46.0" prefWidth="413.0" />
+            <Label layoutX="27.0" layoutY="23.0" text="RESULT" textFill="#5a3eb8">
+               <font>
+                  <Font name="Tektur Tight Regular" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a3eb8" height="80.0" layoutX="512.0" layoutY="693.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
+      <ImageView fitHeight="59.0" fitWidth="54.0" layoutX="561.0" layoutY="703.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/arrow-circle.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a3eb8" height="80.0" layoutX="693.0" layoutY="693.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
+      <ImageView fitHeight="51.0" fitWidth="55.0" layoutX="743.0" layoutY="706.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/play-button.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5a3eb8" height="80.0" layoutX="872.0" layoutY="695.0" stroke="#5a3eb8" strokeType="INSIDE" width="150.0" />
+      <ImageView fitHeight="51.0" fitWidth="57.0" layoutX="923.0" layoutY="710.0" opacity="0.6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/logout.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="1300.0" layoutY="145.0" prefHeight="426.0" prefWidth="128.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label layoutX="33.0" layoutY="-17.0" prefHeight="59.0" prefWidth="63.0" stylesheets="@../../../Style/style.css" text="  STACK" textFill="#7debfc">
+               <font>
+                  <Font name="Tektur Tight Regular" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
    </children>
 </AnchorPane>
