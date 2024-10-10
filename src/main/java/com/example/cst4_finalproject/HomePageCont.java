@@ -32,7 +32,6 @@ public class HomePageCont implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        FadeTransition transition = new FadeTransition();
-        transition.setNode(startBTN);
+
     }
 }
