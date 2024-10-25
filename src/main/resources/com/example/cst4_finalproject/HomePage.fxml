@@ -71,11 +71,11 @@
             </font>
         </Text>
         <Rectangle arcWidth="5.0" fill="#5a3eb8" height="94.0" layoutX="962.0" layoutY="657.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="404.0" />
+        <Polygon fill="#5a3eb8" layoutX="1360.0" layoutY="768.0" points="6.7332763671875, -17.06671142578125, 32.3333740234375, -50.13336181640625, -39.13330078125, -50.13336181640625" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
         <Polygon fill="#5a3eb8" layoutX="984.0" layoutY="699.0" points="-49.26666259765625, -13.4000244140625, 8.5999755859375, -13.4000244140625, -22.066650390625, -41.4000244140625" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
         <Rectangle arcWidth="5.0" fill="#5a3eb8" height="69.0" layoutX="905.0" layoutY="682.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="84.0" />
         <Rectangle arcWidth="5.0" fill="#5a3eb8" height="69.0" layoutX="1305.0" layoutY="657.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="114.0" />
-        <Polygon fill="#5a3eb8" layoutX="1360.0" layoutY="768.0" points="6.7332763671875, -17.06671142578125, 32.3333740234375, -50.13336181640625, -39.13330078125, -50.13336181640625" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
-      <ScrollPane hbarPolicy="NEVER" layoutX="850.0" layoutY="113.0" pannable="true" prefHeight="454.0" prefWidth="623.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+      <ScrollPane fx:id="homeScrollPane" hbarPolicy="NEVER" layoutX="850.0" layoutY="113.0" pannable="true" prefHeight="454.0" prefWidth="623.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="691.0" prefWidth="621.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css">
                <children>

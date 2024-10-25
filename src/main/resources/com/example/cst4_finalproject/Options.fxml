@@ -21,7 +21,7 @@
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" height="470.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1543.0" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff80" height="543.0" layoutX="24.0" layoutY="235.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="683.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000000f2" height="543.0" layoutX="24.0" layoutY="235.0" opacity="0.25" stroke="BLACK" strokeType="INSIDE" width="683.0" />
       <ImageView fitHeight="113.0" fitWidth="214.0" layoutX="-14.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../Images/TeamHiluxLogoInverted69-01-removebg-preview.png" />
@@ -33,9 +33,9 @@
             <Font name="Tektur Narrow Regular" size="26.0" />
          </font>
       </Text>
-      <ScrollPane hbarPolicy="NEVER" layoutX="752.0" layoutY="235.0" pannable="true" prefHeight="543.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+      <ScrollPane fx:id="mainScrollPane" hbarPolicy="NEVER" layoutX="752.0" layoutY="235.0" pannable="true" prefHeight="543.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1341.0" prefWidth="743.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1341.0" prefWidth="743.0" style="-fx-background: transparent;">
                <children>
                   <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="20.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -59,7 +59,7 @@
                         <Font name="Tektur Narrow Regular" size="20.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="68.0" layoutY="73.0" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <JFXButton fx:id="ButtonCFG" layoutX="68.0" layoutY="73.0" onAction="#CFGText" prefHeight="287.0" prefWidth="260.0" text="." />
                   <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="394.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/Options%20frame.png" />
@@ -83,7 +83,7 @@
                         <Font name="Tektur Narrow Regular" size="20.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="436.0" layoutY="77.0" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <JFXButton layoutX="436.0" layoutY="77.0" onAction="#DFAText" prefHeight="287.0" prefWidth="260.0" text="." />
                   <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="20.0" layoutY="498.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/Options%20frame.png" />
@@ -107,7 +107,7 @@
                         <Font name="Tektur Narrow Regular" size="20.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="66.0" layoutY="505.0" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <JFXButton layoutX="66.0" layoutY="505.0" onAction="#NFAText" prefHeight="287.0" prefWidth="260.0" text="." />
                   <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="391.0" layoutY="497.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/Options%20frame.png" />
@@ -131,7 +131,7 @@
                         <Font name="Tektur Narrow Regular" size="20.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="437.0" layoutY="504.0" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <JFXButton layoutX="437.0" layoutY="504.0" onAction="#PDAText" prefHeight="287.0" prefWidth="260.0" text="." />
                   <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="388.0" layoutY="916.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/Options%20frame.png" />
@@ -155,7 +155,7 @@
                         <Font name="Tektur Narrow Regular" size="20.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="438.0" layoutY="920.0" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <JFXButton layoutX="438.0" layoutY="920.0" onAction="#TowerOfHanoiText" prefHeight="287.0" prefWidth="260.0" text="." />
                   <ImageView fitHeight="369.0" fitWidth="383.0" layoutX="18.0" layoutY="916.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/Options%20frame.png" />
@@ -179,7 +179,7 @@
                         <Font name="Tektur Narrow Regular" size="20.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton layoutX="66.0" layoutY="919.0" prefHeight="287.0" prefWidth="260.0" text="." />
+                  <JFXButton layoutX="66.0" layoutY="919.0" onAction="#TuringMachine" prefHeight="287.0" prefWidth="260.0" text="." />
                </children>
             </AnchorPane>
         </content>
@@ -193,11 +193,11 @@
             <Font name="Tektur Narrow Bold" size="51.0" />
          </font>
       </Text>
-      <ScrollPane hbarPolicy="NEVER" layoutX="52.0" layoutY="240.0" pannable="true" prefHeight="500.0" prefWidth="625.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+      <ScrollPane fx:id="textScrollPane" hbarPolicy="NEVER" layoutX="52.0" layoutY="240.0" pannable="true" prefHeight="551.0" prefWidth="626.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="697.0" prefWidth="630.0">
                <children>
-                  <JFXTextArea layoutX="-2.0" layoutY="-2.0" prefHeight="703.0" prefWidth="634.0" />
+                  <JFXTextArea fx:id="textArea" editable="false" focusColor="WHITE" layoutX="-2.0" layoutY="-2.0" prefHeight="703.0" prefWidth="634.0" style="-fx-background: transparent;" unFocusColor="WHITE" wrapText="true" />
                </children></AnchorPane>
         </content>
       </ScrollPane>
