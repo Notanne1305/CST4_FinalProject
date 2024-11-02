@@ -34,6 +34,7 @@ public class StartUpCont extends Application implements Initializable {
     //CFG
     //PDA
     //Turing
+    //NC G
 
     @Override
     public void start(Stage stage) throws IOException {
