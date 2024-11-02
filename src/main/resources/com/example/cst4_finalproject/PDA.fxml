@@ -13,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.PDAGUIController">
+<AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.cst4_finalproject.Controller.PDAGUIController">
    <children>
       <ImageView fitHeight="790.0" fitWidth="1544.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
          <image>
