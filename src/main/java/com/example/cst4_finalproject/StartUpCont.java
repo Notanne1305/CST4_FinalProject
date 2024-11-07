@@ -23,7 +23,7 @@ import java.util.ResourceBundle;
 public class StartUpCont extends Application implements Initializable {
 
     @FXML
-    private JFXButton    StartButton;
+    private JFXButton StartButton;
 
     @FXML
     private Text TITLE;

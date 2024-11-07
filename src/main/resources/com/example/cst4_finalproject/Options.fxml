@@ -2,7 +2,6 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXTextArea?>
-<?import java.lang.String?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -33,7 +32,7 @@
             <Font name="Tektur Narrow Regular" size="26.0" />
          </font>
       </Text>
-      <ScrollPane fx:id="mainScrollPane" hbarPolicy="NEVER" layoutX="752.0" layoutY="235.0" pannable="true" prefHeight="542.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+      <ScrollPane id="viewport" fx:id="mainScrollPane" hbarPolicy="NEVER" layoutX="752.0" layoutY="235.0" pannable="true" prefHeight="542.0" prefWidth="746.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1341.0" prefWidth="743.0" style="-fx-background: transparent;">
                <children>
@@ -183,21 +182,17 @@
                </children>
             </AnchorPane>
         </content>
-         <styleClass>
-            <String fx:value="viewport" />
-            <String fx:value="scroll-pane" />
-         </styleClass>
       </ScrollPane>
       <Text fill="#db81ef" layoutX="51.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CST4 FORMAL LANGUAGES AND AUTOMATA" wrappingWidth="547.8498992919922">
          <font>
             <Font name="Tektur Narrow Bold" size="51.0" />
          </font>
       </Text>
-      <ScrollPane fx:id="textScrollPane" hbarPolicy="NEVER" layoutX="52.0" layoutY="240.0" pannable="true" prefHeight="551.0" prefWidth="626.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
+      <ScrollPane id="viewport" fx:id="textScrollPane" hbarPolicy="NEVER" layoutX="52.0" layoutY="240.0" pannable="true" prefHeight="551.0" prefWidth="626.0" style="-fx-background-color: transparent;" stylesheets="@../../../Style/style.css" vbarPolicy="NEVER">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="697.0" prefWidth="630.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="697.0" prefWidth="630.0" stylesheets="@../../../Style/style.css">
                <children>
-                  <JFXTextArea fx:id="textArea" editable="false" focusColor="WHITE" layoutX="-2.0" layoutY="-2.0" prefHeight="703.0" prefWidth="634.0" style="-fx-background: transparent;" unFocusColor="WHITE" wrapText="true" />
+                  <JFXTextArea id="viewport" fx:id="textArea" editable="false" focusColor="WHITE" layoutX="-2.0" layoutY="-2.0" prefHeight="703.0" prefWidth="634.0" stylesheets="@../../../Style/style.css" unFocusColor="WHITE" wrapText="true" />
                </children></AnchorPane>
         </content>
       </ScrollPane>

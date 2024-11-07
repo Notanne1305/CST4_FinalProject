@@ -1,8 +1,8 @@
-.scroll-pane .viewport {
-    -fx-background: transparent;
+#viewport {
+    -fx-background: transparent ;
 }
 
-.label {
+#diagramLabel {
  -fx-background-color: #000;
      -fx-background-radius: 90px;
      -fx-padding: 3px;
